@@ -103,8 +103,10 @@ function sucessoEnvio() {
   document.querySelector("input").value = "";
 }
 
-function erroEnvio() {
-  window.location.reload();
+function erroEnvio(erro) {
+  if (erro.response.status !== 400) {
+       window.location.reload();
+  } 
 }
 
 entrarSala();
