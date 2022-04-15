@@ -1,44 +1,48 @@
 * {
     box-sizing: border-box;
-}
-
-body {
-    background-color: #F3F3F3;
-    font-family: 'Roboto', sans-serif;
-}
-
-input {
+  }
+  
+  body {
+    background-color: #f3f3f3;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  input {
     color: #000000;
-    font-family: 'Roboto';
-    font-style: italic;
+    font-family: "Roboto";
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     border: none;
     width: 80%;
     height: 50%;
-}
-
-span {
+  }
+  
+  input::placeholder {
+    font-style: italic;
+    color: #000000;
+  }
+  
+  span {
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-}
-
-.topo ion-icon {
+  }
+  
+  .topo ion-icon {
     font-size: 44px;
-}
-
-.area-de-escrita ion-icon {
+  }
+  
+  .area-de-escrita ion-icon {
     font-size: 32px;
-}
-
-.area-de-escrita ion-icon:active {
+  }
+  
+  .area-de-escrita ion-icon:active {
     transform: translate(0px, 4px);
-}
-
-.topo {
-    background-color: #FFFFFF;
+  }
+  
+  .topo {
+    background-color: #ffffff;
     height: 80px;
     width: 100%;
     padding: 0 22px;
@@ -48,49 +52,50 @@ span {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
     position: fixed;
     top: 0;
-}
-
-.topo img {
+  }
+  
+  .topo img {
     width: 75px;
     height: 53px;
-}
-
-.mensagens {
+  }
+  
+  .mensagens {
     margin-top: 106px;
     margin-bottom: 84px;
-}
-
-.msg-status {
-    background-color: #DCDCDC;
+    word-wrap: break-word;
+  }
+  
+  .msg-status {
+    background-color: #dcdcdc;
     padding: 14px 6px;
     border-radius: 2px;
     margin-bottom: 4px;
-}
-
-.msg-normal {
-    background-color: #FFFFFF;
+  }
+  
+  .msg-normal {
+    background-color: #ffffff;
     padding: 14px 6px;
     border-radius: 2px;
     margin-bottom: 4px;
-}
-
-.msg-reservada {
-    background-color: #FFDEDE;
+  }
+  
+  .msg-reservada {
+    background-color: #ffdede;
     padding: 14px 6px;
     border-radius: 2px;
     margin-bottom: 4px;
-}
-
-.hora {
-    color: #AAAAAA;
-}
-
-.nome {
+  }
+  
+  .hora {
+    color: #aaaaaa;
+  }
+  
+  .nome {
     font-weight: 600;
-}
-
-.area-de-escrita {
-    background-color: #FFFFFF;
+  }
+  
+  .area-de-escrita {
+    background-color: #ffffff;
     height: 80px;
     width: 100%;
     position: fixed;
@@ -100,5 +105,5 @@ span {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
-
-}
+  }
+  
